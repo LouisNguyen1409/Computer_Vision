@@ -1,1 +1,5 @@
+# Ignore .DS_Store files in all directories
+**/.DS_Store
+
+# Keep the original entry for the root directory
 .DS_Store
