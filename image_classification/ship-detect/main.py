@@ -30,5 +30,5 @@ def classify_ship(image: Image):
 	probs = output.probs.numpy().data
 	names_dict = output.names
 	predict = names_dict[np.argmax(probs)]
-	score = probs[np.argmax(probs)] * 100
+	score = float(probs[np.argmax(probs)] * 100)
 	return {"prediction": predict, 'score': score, 'image_url': image_url}
