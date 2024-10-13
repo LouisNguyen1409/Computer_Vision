@@ -1,4 +1,4 @@
 from ultralytics import YOLO
 
 model = YOLO('yolov8n.pt')
-model.train(data='data.yaml', epochs=100, device='mps')
+model.train(data='./dataset/data.yaml', epochs=1000, device='mps')
