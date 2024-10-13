@@ -3,3 +3,6 @@
 
 # Keep the original entry for the root directory
 .DS_Store
+
+# Ignore the dataset folder
+./pose-dectection/dataset
