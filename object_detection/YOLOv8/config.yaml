@@ -1,0 +1,8 @@
+path: /Users/louis/Computer_Vision/object_detection/YOLOv8/dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: alpaca
