@@ -8,3 +8,4 @@
 pose-detection/dataset
 
 .vscode
+object_detection/plate-recognition/video1.mp4
