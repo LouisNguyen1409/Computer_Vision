@@ -1,4 +1,4 @@
-path: /Users/louis/Computer_Vision/object_detection/plate-recognition/dataset
+path: /content/gdrive/My Drive/plate-recognition/dataset/
 train: train/images
 val: valid/images
 test: test/images
